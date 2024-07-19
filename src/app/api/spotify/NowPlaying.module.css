@@ -1,0 +1,109 @@
+.nowPlayingCard {
+    flex-shrink: 0;
+    border-radius: 22px;
+   
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+    /* align-items: center; */
+    /* justify-items: center; */
+    width: 600px;
+    height: 400px;
+    display: block;
+    transition: all 0.5s ease;
+    margin-top: 70px;
+    background-color:#ff7300 ;
+    /* Spotify green */
+}
+
+.nowPlayingCard:hover {
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+    transform: translateX(-10px) translateY(-10px);
+    background-color:transparent;
+    transition: all 1s ease;
+}
+
+.nowPlayingCard a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nowPlayingCard a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.nowPlayingImage {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.nowPlayingImage img {
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+}
+
+.nowPlayingImage img:hover {
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+    transform: translateX(-3px) translateY(-3px);
+    transition: all 0.5s ease;
+}
+
+#nowPlayingDetails {
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 200px);
+    height: 100%;
+    padding: 10px;
+}
+
+.nowPlayingTitle {
+    color: #ffffff;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.nowPlayingArtist {
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    color: #ccc;
+    /* Light gray for artist name */
+    margin-bottom: 5px;
+}
+
+.nowPlayingTime {
+    text-align: left;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.nowPlayingState {
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+}
+
+.nowPlayingState img {
+    filter: grayscale(100%);
+    width: 100px;
+    opacity: 0.8;
+    mix-blend-mode:screen;
+    transition: opacity 0.5s ease;
+}
+
+.nowPlayingState img:hover {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
