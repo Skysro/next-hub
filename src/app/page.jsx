@@ -1,11 +1,11 @@
 import styles from './page.module.css'
-import FloatingShape from '../components/floatingShape';
+import Index from '../components/floatingShape/Index';
 
 export default function Home() {
   return (
     <main className={styles.main}>
    
-   <FloatingShape />
+   <Index />
     </main>
   );
 }

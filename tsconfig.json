@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/api/spotify/NowPlaying.js", "src/app/api/spotify/RecentlyPlayed.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/api/spotify/NowPlaying.js", "src/app/api/spotify/RecentlyPlayed.jsx", "src/app/page.jsx", "src/app/layout.jsx"],
   "exclude": ["node_modules"]
 }
